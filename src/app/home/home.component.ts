@@ -1,6 +1,7 @@
 import { Component, OnInit ,AfterViewInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 declare const TradingView: any;
+declare const TradingView2: any;
 
 @Component({
   selector: 'app-home',
@@ -19,8 +20,8 @@ export class HomeComponent implements OnInit ,AfterViewInit {
   ngAfterViewInit(){
     new TradingView.widget(
       {
-      "width": 980,
-      "height": 610,
+      "width": 330,
+      "height": 600,
       "symbol": "NASDAQ:AAPL",
       "timezone": "Etc/UTC",
       "theme": "Light",
@@ -33,13 +34,15 @@ export class HomeComponent implements OnInit ,AfterViewInit {
       "hide_side_toolbar": false,
       "allow_symbol_change": true,
       "show_popup_button": true,
-      "popup_width": "1000",
-      "popup_height": "650",
+      "popup_width": "300",
+      "popup_height": "400",
       "no_referral_id": true,
       "container_id": "tradingview_bac65"
     }
       );
+      
   }
+
  
   
 

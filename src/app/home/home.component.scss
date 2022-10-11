@@ -26,19 +26,99 @@
 
 }
 .contenedor_segundo_panel{
+    
+    .card_contenedor{
+        margin-top: 10px;
+        
+        color: rgb(12, 11, 11);
+        display: flex;
+        max-width: 400px;
+        box-shadow:  15px 20px 13px #c0c0c2;
+        
+        
+       
+        background-color: rgba(255, 255, 255, 0.959);
+
+    }
     display: flex;
     min-height: 95vh;
-    
     width: 100%;
-    background-image: url("https://previews.123rf.com/images/apostrophe/apostrophe1703/apostrophe170300015/73270396-azul-resumen-geom%C3%A9trica-y-fondo-blanco-tonos-brillantes-de-cielo-azul-fondo-contempor%C3%A1neo-o-estilo-d.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-color: #F4F4F4;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    .laptop{
+        width: 400px;
+        height: 600px;
+        background:#000;
+        border:  16px solid #262626;
+        box-shadow: -20px 15px 20px 13px #c0c0c2;
+        overflow:hidden;
+        max-height: 800px;
+    }
+    // intento de laptop
+    //colours
+    $background: #2fac66;
+    $base: #e6e8e7;
+    $screen: #89c9e5;
+    $frame: #3f3f41;
+    $open: #bcbdc1;
+    $base2: #d1d2d4;
+    
+    //mixin
+    @mixin align-horizontal {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    html, body {
+      background: $background;
+    }
+    
+    
+    
+    h1 {
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+       font-weight: 300;
+      color: rgba(#fff, 0.85);
+      margin: 0 0 1em 0;
+      font-size: 22px;
+      span {
+        font-size: 16px;
+        display: block;
+        color: rgba(#fff, 0.75);
+        margin: 5px 0 0 0;
+        font-style: italic;
+      }
+    }
+    
+    //the magic
+    .laptop {
+      position: relative;
+      width: 330px;
+      height: 600px;
+      margin: 0 auto;
+      background: $screen;
+      border: 15px solid $frame;
+      border-top: 20px solid $frame;
+      border-radius: 14px 14px 0 0;
+      margin: 0 0  0;
+      box-shadow: -20px 15px 20px 13px #c0c0c2;}
+      padding: 30px;
+      
 }
+
+ 
+
 .contenedor_tercer_panel{
     display: flex;
-    min-height: 95vh;
+    min-height: 10vh;
     background-color: red;
     
     width: 100%;
@@ -46,16 +126,46 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    
 
 }
 .contenedor_cuarto_panel{
     display: flex;
-    min-height: 95vh;
+    min-height: 100vh;
+    overflow-x: hidden;
     
     width: 100%;
-    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-color: #F4F4F4;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    img{
+        max-height: 400px;
+        max-width: 600px;
+    }
+    .col{
+        max-width: 600px !important;
+        margin: auto;
+        /* margin-left: 10px; */
+        margin-top: 10px;
+        padding: 20px;
+
+    }
+    .card_contenedor{
+        margin-top: 10px;
+        max-height: 30vh;
+        
+        
+        color: rgb(12, 11, 11);
+        display: flex;
+        max-width: 400px;
+        box-shadow:  15px 20px 13px #c0c0c2;
+        
+        
+        
+       
+        background-color: rgba(255, 255, 255, 0.959);
+
+    }
 
 }
