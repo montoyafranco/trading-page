@@ -1,0 +1,61 @@
+.contenedor_primer_panel{
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+    
+    width: 100%;
+    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .contenedor_h1{
+        margin: 10vh 20vw 0px 20vw ;
+        color: rgba(255, 255, 255, 0.911);
+    }
+    .card_contenedor{
+        color: white;
+        max-width: 330px;
+        max-height: 400px;
+        margin: 10vh 20vw 0px 16vw;
+        background-color: rgba(255, 255, 255, 0.034);
+
+    }
+    h1{
+        font-size: 5em;
+    }
+
+}
+.contenedor_segundo_panel{
+    display: flex;
+    min-height: 95vh;
+    
+    width: 100%;
+    background-image: url("https://previews.123rf.com/images/apostrophe/apostrophe1703/apostrophe170300015/73270396-azul-resumen-geom%C3%A9trica-y-fondo-blanco-tonos-brillantes-de-cielo-azul-fondo-contempor%C3%A1neo-o-estilo-d.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contenedor_tercer_panel{
+    display: flex;
+    min-height: 95vh;
+    background-color: red;
+    
+    width: 100%;
+    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contenedor_cuarto_panel{
+    display: flex;
+    min-height: 95vh;
+    
+    width: 100%;
+    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
