@@ -2,27 +2,33 @@
     display: flex;
     min-height: 95vh;
     flex-direction: column;
+    height: 100%;
     
     width: 100%;
     background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     .contenedor_h1{
-        margin: 10vh 20vw 0px 20vw ;
+        margin: 5vh 15vw 0px 15vw ;
         color: rgba(255, 255, 255, 0.911);
     }
     .card_contenedor{
         color: white;
-        max-width: 330px;
+        max-width: 700px;
         max-height: 400px;
-        margin: 10vh 20vw 0px 16vw;
+        margin: 5vh 16vw 0px 16vw;
         background-color: rgba(255, 255, 255, 0.034);
 
     }
     h1{
         font-size: 5em;
     }
+    
 
 }
 .contenedor_segundo_panel{
@@ -117,37 +123,27 @@
  
 
 .contenedor_tercer_panel{
-    display: flex;
-    min-height: 10vh;
-    background-color: red;
     
+    display: flex;
+    min-height: 95vh;
+    overflow: hidden;
     width: 100%;
-    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    
-
-}
-.contenedor_cuarto_panel{
-    display: flex;
-    min-height: 100vh;
-    overflow-x: hidden;
-    width: 100%;
     background-color: #F4F4F4;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     .card:hover{
         transition-delay: 0s, 3000ms;
-        translate: 2px;
-        background-color: #f0f3f18a;
-        transition-duration: 3s;
+        
+        background-color: #2fc9f85d;
+        transition-duration: 2s;
         box-shadow: #000;
-        zoom: 1.1;
+        
         
         
         
@@ -158,12 +154,19 @@
         max-width: 600px;
     }
     .col{
-        max-width: 600px !important;
+        max-width: 300px !important;
         margin: auto;
         /* margin-left: 10px; */
         margin-top: 10px;
         padding: 20px;
+        min-width: 33%;
 
+    }
+    .card-body{
+    text-align: center;        
+    min-width: 200px;
+    max-height: 300px;
+    min-height: 200px;
     }
     .card_contenedor{
         margin-top: 10px;
@@ -181,5 +184,112 @@
         background-color: rgba(255, 255, 255, 0.959);
 
     }
+    
+    
+
+}
+.contenedor_cuarto_panel{
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #F4F4F4;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    // .card:hover{
+    //     transition-delay: 0s, 3000ms;
+    //     translate: 2px;
+    //     background-color: #f0f3f18a;
+    //     transition-duration: 3s;
+    //     box-shadow: #000;
+    //     zoom: 1.1;
+        
+        
+        
+
+    // }
+    // img{
+    //     max-height: 400px;
+    //     max-width: 600px;
+    // }
+    // .col{
+    //     max-width: 600px !important;
+    //     margin: auto;
+    //     /* margin-left: 10px; */
+    //     margin-top: 10px;
+    //     padding: 20px;
+
+    // }
+    // .card_contenedor{
+    //     margin-top: 10px;
+    //     max-height: 30vh;
+        
+        
+    //     color: rgb(12, 11, 11);
+    //     display: flex;
+    //     max-width: 400px;
+    //     box-shadow:  15px 20px 13px #c0c0c2;
+        
+        
+        
+       
+    //     background-color: rgba(255, 255, 255, 0.959);
+
+    // }
+
+
+.container1{
+    overflow: auto;
+    color: #262626;
+table {
+	min-width: 320px;
+	border-collapse: collapse;
+	
+    overflow: scroll;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    color: #262626;
+}
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+    color: #262626;
+}
+th {
+	text-align: left;
+}
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				
+				background-color: rgba(255,255,255,0.2);
+				
+			}
+		}
+	}
+}
+}
+
+    
+    
+    
 
 }
