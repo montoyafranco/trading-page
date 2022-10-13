@@ -15,6 +15,7 @@
     align-items: center;
     .contenedor_h1{
         margin: 5vh 15vw 0px 15vw ;
+        font-size: 0.7em;
         color: rgba(255, 255, 255, 0.911);
     }
     .card_contenedor{
@@ -31,97 +32,71 @@
     
 
 }
-.contenedor_segundo_panel{
-    
-    .card_contenedor{
-        margin-top: 10px;
-        
-        color: rgb(12, 11, 11);
-        display: flex;
-        max-width: 400px;
-        box-shadow:  15px 20px 13px #c0c0c2;
-        
-        
-       
-        background-color: rgba(255, 255, 255, 0.959);
-
-    }
+.contenedor_cuarto_panel{
     display: flex;
-    min-height: 95vh;
+    min-height: 100vh;
+    overflow-x: hidden;
     width: 100%;
+    background-color: #F4F4F4;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #F4F4F4;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-evenly;
-    align-items: center;
-    .laptop{
-        width: 400px;
-        height: 600px;
-        background:#000;
-        border:  16px solid #262626;
-        box-shadow: -20px 15px 20px 13px #c0c0c2;
-        overflow:hidden;
-        max-height: 800px;
-    }
-    // intento de laptop
-    //colours
-    $background: #2fac66;
-    $base: #e6e8e7;
-    $screen: #89c9e5;
-    $frame: #3f3f41;
-    $open: #bcbdc1;
-    $base2: #d1d2d4;
+    align-content: center;
+    justify-content: center;
     
-    //mixin
-    @mixin align-horizontal {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    
-    html, body {
-      background: $background;
-    }
-    
-    
-    
-    h1 {
-      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-       font-weight: 300;
-      color: rgba(#fff, 0.85);
-      margin: 0 0 1em 0;
-      font-size: 22px;
-      span {
-        font-size: 16px;
-        display: block;
-        color: rgba(#fff, 0.75);
-        margin: 5px 0 0 0;
-        font-style: italic;
-      }
-    }
-    
-    //the magic
-    .laptop {
-      position: relative;
-      width: 330px;
-      height: 600px;
-      margin: 0 auto;
-      background: $screen;
-      border: 15px solid $frame;
-      border-top: 20px solid $frame;
-      border-radius: 14px 14px 0 0;
-      margin: 0 0  0;
-      box-shadow: -20px 15px 20px 13px #c0c0c2;}
-      padding: 30px;
-      
+
+.container1{
+    overflow: auto;
+    color: #262626;
+table {
+	min-width: 320px;
+	border-collapse: collapse;
+	
+    overflow: scroll;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    color: #262626;
+}
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+    color: #262626;
+}
+th {
+	text-align: left;
+}
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				
+				background-color: rgba(255,255,255,0.2);
+				
+			}
+		}
+	}
+}
 }
 
- 
+    
+    
+    
 
+}
 .contenedor_tercer_panel{
     
     display: flex;
