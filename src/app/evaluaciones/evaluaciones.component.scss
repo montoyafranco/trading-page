@@ -60,7 +60,7 @@ table {
 th,
 td {
 	padding: 15px;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255, 255, 255, 0.514);
 	color: #fff;
     color: #262626;
 }
@@ -69,7 +69,7 @@ th {
 }
 thead {
 	th {
-		background-color: #55608f;
+		background-color: #818dc2;
 	}
 }
 tbody {
@@ -81,10 +81,11 @@ tbody {
 	td {
 		position: relative;
 		&:hover {
+            
 			&:before {
 				content: "";
 				
-				background-color: rgba(255,255,255,0.2);
+				background-color: rgb(255, 255, 255);
 				
 			}
 		}
@@ -179,6 +180,7 @@ tbody {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    padding-bottom: 10px;
 
     @mixin border-radius($radius) {
         -webkit-border-radius: $radius;
@@ -300,5 +302,41 @@ tbody {
         @include transition(0.2s ease-in-out);
         @include border-radius(.3rem);
       }
+
+}
+.contenedor_quinto_panel{
+    
+        display: flex;
+        min-height: 95vh;
+        flex-direction: column;
+        height: 100%;
+        
+        width: 100%;
+        background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        .contenedor_h1{
+            margin: 5vh 15vw 0px 15vw ;
+            color: rgba(255, 255, 255, 0.911);
+        }
+        .card_contenedor{
+            color: white;
+            max-width: 700px;
+            max-height: 400px;
+            margin: 5vh 16vw 0px 16vw;
+            background-color: rgba(255, 255, 255, 0.034);
+    
+        }
+        h1{
+            font-size: 5em;
+        }
+        
+    
+    
 
 }
