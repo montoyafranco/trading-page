@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit ,AfterViewInit {
   ngAfterViewInit(){
     new TradingView.widget(
       {
-      "width": 330,
-      "height": 600,
+      "width": "100%",
+      "height": 550,
       "symbol": "NASDAQ:AAPL",
       "timezone": "Etc/UTC",
       "theme": "Light",
