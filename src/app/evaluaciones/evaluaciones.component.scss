@@ -69,7 +69,26 @@ th {
 }
 thead {
 	th {
-		background-color: #818dc2;
+		border: none;
+  border-radius: 4px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  overflow: hidden;
+  padding: 20px 50px 20px 70px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: background-position .7s,box-shadow .4s;
+  transition: background-position .7s,box-shadow .4s;
+  background-size: 110%;
+  font-family: 'Oswald', sans-serif;
+  background: rgb(35,184,236);
+  
+background: radial-gradient(circle, rgba(22, 156, 78, 0.295) 14%, rgb(126, 184, 148) 98%);
+text-align: -webkit-center;
 	}
 }
 tbody {
@@ -80,6 +99,10 @@ tbody {
 	}
 	td {
 		position: relative;
+    position: relative;
+    font-style: italic;
+    font-family: serif;
+    text-align: -webkit-center;
 		&:hover {
             
 			&:before {
@@ -90,7 +113,28 @@ tbody {
 			}
 		}
 	}
+  .subtitulos-tabla{
+    border: none;
+  border-radius: 4px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  overflow: hidden;
+  
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: background-position .7s,box-shadow .4s;
+  transition: background-position .7s,box-shadow .4s;
+  background-size: 110%;
+  font-family: 'Oswald', sans-serif;
+  background: rgb(35,184,236);
+background: radial-gradient(circle, rgba(22, 156, 78, 0.295) 14%, rgb(126, 184, 148) 98%);
+  }
 }
+
 
 }
 
