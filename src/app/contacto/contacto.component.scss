@@ -31,3 +31,8 @@
       font-size: 5em;
     }
   }
+  @media (max-width: 900px) {
+    .contenedor_primer_panel {
+      background-position: center;
+    }
+  }

@@ -32,6 +32,11 @@
     
 
 }
+@media (max-width: 900px) {
+  .contenedor_primer_panel {
+    background-position: center;
+  }
+}
 .contenedor_segundo_panel{
     display: flex;
     min-height: 100vh;
