@@ -1,0 +1,33 @@
+.contenedor_primer_panel {
+    display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+    height: 100%;
+  
+    width: 100%;
+    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  
+    .contenedor_h1 {
+      margin: 5vh 15vw 0px 15vw;
+      color: rgba(255, 255, 255, 0.911);
+    }
+  
+    .card_contenedor {
+      color: white;
+      max-width: 700px;
+      max-height: 400px;
+      margin: 30vh 16vw 0px 16vw;
+      background-color: rgba(255, 255, 255, 0.034);
+    }
+  
+    h1 {
+      font-size: 5em;
+    }
+  }

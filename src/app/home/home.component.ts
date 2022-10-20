@@ -1,5 +1,6 @@
 import { Component, OnInit ,AfterViewInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { EvaluacionesComponent } from '../evaluaciones/evaluaciones.component';
 declare const TradingView: any;
 declare const TradingView2: any;
 
