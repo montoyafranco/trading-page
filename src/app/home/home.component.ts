@@ -1,6 +1,7 @@
 import { Component, OnInit ,AfterViewInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { EvaluacionesComponent } from '../evaluaciones/evaluaciones.component';
+import { AuthService } from '../services/auth.service';
 declare const TradingView: any;
 declare const TradingView2: any;
 
@@ -12,11 +13,26 @@ declare const TradingView2: any;
 export class HomeComponent implements OnInit ,AfterViewInit {
 
   constructor(
+    private auth: AuthService,
     private router: Router,
     private activatedRoute: ActivatedRoute,
   ) { }
 
   ngOnInit(): void {
+  }
+  onClick() {
+    this.auth.loginWithGoogle().then((response) => {
+      console.log(response)
+      // this.nuevo_arreglo = {
+      //   nombre: response.user.displayName,
+      //   email: response.user.email,
+      //   telefono: response.user.phoneNumber,
+      //   id: response.user.uid,
+      // };
+      // this.verificacion(this.nuevo_arreglo);
+      // this.dataResponse = response;
+      // this.router.navigate(['home']);
+    });
   }
   ngAfterViewInit(){
     new TradingView.widget(
