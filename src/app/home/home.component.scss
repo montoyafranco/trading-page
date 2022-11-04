@@ -30,6 +30,14 @@
   h1 {
     font-size: 5em;
   }
+  .contenedor-botones{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    flex-direction: row;
+  }
 }
 @media (max-width: 900px) {
   .contenedor_primer_panel {

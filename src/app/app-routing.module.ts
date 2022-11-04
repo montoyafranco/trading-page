@@ -4,12 +4,17 @@ import { HomeComponent } from './home/home.component';
 import { EvaluacionesComponent } from './evaluaciones/evaluaciones.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { TransaccionComponent } from './transaccion/transaccion.component';
+import { PayComponent } from './pay/pay.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'pay',
+    component: PayComponent,
   },
   {
     path: 'evaluaciones',

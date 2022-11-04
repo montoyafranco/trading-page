@@ -1,5 +1,7 @@
+
+
 <div class="contenedor_primer_panel">
-  <button (click)="onClick()">Iniciar sesion</button>
+  
   <div class="contenedor_h1">
     <h1>Goat Funding</h1>
   </div>
@@ -18,7 +20,12 @@
         aperiam, quam quisquam odio animi atque aliquid quaerat quos rem eaque
         corrupti ipsam, nostrum porro maxime.
       </p>
-      <a [routerLink]="['/evaluaciones']" class="btn btn-primary">Empezar Prueba</a>
+      <div class="contenedor-botones">
+        <a [routerLink]="['/evaluaciones']" class="btn btn-primary">Servicio Premium</a>
+      <a [routerLink]="['/evaluaciones']" class="btn btn-primary">Servicio Free</a>
+      
+      </div>
+      
     </div>
     <!-- <div class="card-footer text-muted">
           2 days ago

@@ -15,6 +15,7 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { TransaccionComponent } from './transaccion/transaccion.component';
+import { PayComponent } from './pay/pay.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TransaccionComponent } from './transaccion/transaccion.component';
     FooterComponent,
     EvaluacionesComponent,
     ContactoComponent,
-    TransaccionComponent
+    TransaccionComponent,
+    PayComponent
   ],
   imports: [
     BrowserModule,
