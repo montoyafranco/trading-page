@@ -1,3 +1,19 @@
+.contenedor_banner{
+  display: flex;
+  min-height: 95vh;
+  flex-direction: column;
+  height: 100%;
+
+  width: 100%;
+  background-image: url("../../assets/Modern\ Purple\ Investing\ Daily\ Tips\ Youtube\ Thumbnail\ \(3\).png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 .contenedor_primer_panel {
   display: flex;
   min-height: 95vh;
@@ -5,7 +21,7 @@
   height: 100%;
 
   width: 100%;
-  background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+  background-image: url("../../assets/Modern\ Purple\ Investing\ Daily\ Tips\ Youtube\ Thumbnail\ \(8\).png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,6 +36,7 @@
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     background: linear-gradient(45deg, #f2c511, #647eff);
+    text-align: -webkit-center
   }
 
   .card_contenedor {
@@ -125,6 +142,7 @@
     text-align: -webkit-center !important;
     font-weight: 900;
     font-style: oblique;
+    font-size: 3rem;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     background: linear-gradient(45deg, #0e0d0d, #ffe364);
@@ -178,7 +196,7 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border: 0.8rem solid rgb(93, 135, 143);
+    
     border-radius: 13px;
   }
 
