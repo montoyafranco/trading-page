@@ -12,4 +12,18 @@
         background-color: #f4f4f438;
         border-radius: 4rem;
     }
+    .nav-item{
+        margin: auto;
+        padding-left: 5rem;
+    }
+    .cont-a{
+        flex-direction: row;
+        display: flex !important;
+        flex-basis: auto;
+        align-items: baseline;
+        justify-content: center;
+        align-content: space-around;
+        /* flex-wrap: nowrap; */
+        margin: auto;
+    }
 }
