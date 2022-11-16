@@ -23,12 +23,12 @@ export class HomeComponent implements OnInit  {
     setTimeout(() => {
       Swal.fire({
         title: 'Bienvenido! ',
-        text: 'Recomendamos utilizar nuestro servicio de atencion al cliente mediante Whatsapp in compromiso para conocer metodos de pago adicionales y ayuda',
+        text: 'Recomendamos utilizar nuestro servicio de atención al cliente mediante Whatsapp sin compromiso para guiarlo ante cualquier duda',
         imageUrl: 'https://www.emprenderalia.com/wp-content/uploads/cliente-1.jpg',
         imageWidth: 500,
         imageHeight: 300,
         imageAlt: 'Custom image',
-        timer:8000,
+        timer:7000,
         timerProgressBar: true,
         position: 'center-end',
         showConfirmButton: false,

@@ -5,7 +5,7 @@
     height: 100%;
     
     width: 100%;
-    background-image: url("../../assets/viktor-forgacs-3PyBkxgTiL0-unsplash.jpg");
+    background-image: url("../../assets/banner-oscuro.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -398,4 +398,7 @@ background: radial-gradient(circle, rgba(22, 156, 78, 0.295) 14%, rgb(126, 184, 
     
     
 
+}
+.accordion-item{
+  border: solid #d4ba2617 !important;
 }
