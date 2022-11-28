@@ -10,6 +10,7 @@ export class PayComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
 }

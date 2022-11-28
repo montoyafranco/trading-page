@@ -13,7 +13,8 @@ export class EvaluacionesComponent implements OnInit {
     private activatedRoute: ActivatedRoute,
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {window.scrollTo({ top: 0, behavior: 'smooth' });
+  
   }
 
 }

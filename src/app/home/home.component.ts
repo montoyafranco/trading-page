@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit  {
   ) { }
 
   ngOnInit(): void {
+     window.scrollTo({ top: 0, behavior: 'smooth' })
     setTimeout(() => {
       Swal.fire({
         title: 'Bienvenido! ',
@@ -28,14 +29,14 @@ export class HomeComponent implements OnInit  {
         imageWidth: 500,
         imageHeight: 300,
         imageAlt: 'Custom image',
-        timer:7000,
+        timer:6000,
         timerProgressBar: true,
         position: 'center-end',
         showConfirmButton: false,
         
       })
       
-    }, 2500);
+    }, 0.5);
     
     
   }
